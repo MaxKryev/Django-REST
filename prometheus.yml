@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: "web-rest"
+    static_configs:
+      - targets: ["web-rest:8002"]
+
+  - job_name: "loki"
+    static_configs:
+      - targets: ["loki:3100"]
