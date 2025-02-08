@@ -19,7 +19,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-        git clone https://github.com/MaxKryev/Django-REST
+        git clone https://github.com/MaxKryev/Django-REST.git
 
 
 2. Настройка Docker:
